@@ -1,2 +1,3 @@
-# wiznet-stc89-udp-tcp
-Low-power TCP/UDP networking stack for Wiznet W5500 using STC89 microcontroller. Supports UART-based configuration, SPI communication, and efficient packet handling.
+# Embedded TCP/UDP Communication System on WIZnet W5500 with STC89 chip
+
+This project implements a real-time, low-power Ethernet communication system using the WIZnet W5500 chip and the STC89 microcontroller. It supports both UDP and TCP protocols with full packet handling, interrupt-driven communication, and a lightweight UART interface for runtime configuration. The firmware manages socket creation, SPI transfers, and message formatting with minimal memory usage, making it suitable for constrained embedded environments. Communication reliability and performance are tested using a Python script that sends randomized messages over UDP and TCP, and visually displays live statistics such as packet count, response time, and error rate using the curses library for a terminal-based UI.
